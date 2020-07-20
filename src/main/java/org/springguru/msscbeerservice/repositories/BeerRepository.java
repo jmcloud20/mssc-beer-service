@@ -1,7 +1,7 @@
-package org.springguru.msscbeerservice.web.repositories;
+package org.springguru.msscbeerservice.repositories;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
-import org.springguru.msscbeerservice.web.domain.Beer;
+import org.springguru.msscbeerservice.domain.Beer;
 
 import java.util.UUID;
 

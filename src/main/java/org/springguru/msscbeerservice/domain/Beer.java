@@ -1,4 +1,4 @@
-package org.springguru.msscbeerservice.web.domain;
+package org.springguru.msscbeerservice.domain;
 
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -31,6 +31,7 @@ public class Beer {
     @UpdateTimestamp
     private Timestamp lastModifiedDate;
     private String beerName;
+    private String beerStyle;
 
     @Column(unique = true)
     private Long upc;
